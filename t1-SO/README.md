@@ -9,12 +9,13 @@ Compilar:
 Uso:
 	./<nome_arquivo> altura
 
-	Sendo altura um valor positivo não nulo.
+(Sendo altura um valor positivo não nulo.)
 
 Exemplo de output (altura = 2):
 
 /*...*/
 Tempo execucao processos em cadeia: 0.000222s
+
 /*...*/
 Tempo execucao processos em arvore: 0.000312s
 
