@@ -7,7 +7,7 @@ Uso: <b>./nomescript.sh altura </b>
 ------------------------------------------------
 <b>Output (altura = 2, 30 execucoes):</b><br/>
 total exe:  30<br/>
-total time:  .014515 
+total time:  .014515<br/>
 media:  .00048383333333333333<br/>
 
 
