@@ -1,10 +1,13 @@
 # script-media
 
-Permissão: chmod +x <nomescript> <nomescript.sh>
+Permissão: <b>chmod +x <nomescript.sh></b>
 
-Uso: ./nomescript.sh altura
+Uso: <b>./nomescript.sh altura </b>
 
-Script ira executar 30 vezes o arquivo e como output:
+Output:
 
+total exe:  30                  // qtd de vezes que executou o programa
+total time:  .014515        
+media:  .00048383333333333333   // total_time / total_exe
 
 
