@@ -12,7 +12,7 @@ Uso:
 (Sendo altura um valor positivo não nulo.)
 
 -----------------------------------------------------------------
-Exemplo de output (altura = 2):<br/><br/>
+<b>Exemplo de output (altura = 2):</b><br/><br/>
 
 	Cadeia (inicio em PID = 6465)
 
