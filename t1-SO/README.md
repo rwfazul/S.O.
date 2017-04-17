@@ -3,10 +3,10 @@
 
 Trabalho que consiste na comparação de desempenho da criação de processos em cadeia vs árvore binária cheia
 
-<b>Compilar:</b></br>
-	gcc -o <nome_arquivo> <nome_arquivo>.c
+Compilar:
+	<b>gcc -o <nome_arquivo> <nome_arquivo>.c</b>
 	
-<b>Uso:</b></br>
+Uso:
 	./<nome_arquivo> altura
 
 (Sendo altura um valor positivo não nulo.)
