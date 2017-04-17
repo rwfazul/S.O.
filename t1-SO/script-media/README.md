@@ -4,10 +4,10 @@ Permissão: <b>chmod +x <nomescript.sh></b>
 
 Uso: <b>./nomescript.sh altura </b>
 
-<b>Output (altura = 2, 30 execucoes):</b><br/><br/>
-
+------------------------------------------------
+<b>Output (altura = 2, 30 execucoes):</b><br/>
 total exe:  30<br/>
-total time:  .014515<br/>    
+total time:  .014515 
 media:  .00048383333333333333<br/>
 
 
