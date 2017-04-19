@@ -4,7 +4,7 @@ Repositório para exercícios e trabalhos da cadeira de Sistemas Operacionais 20
 
 ------------------------------------------------------------------------------
 
-    t1-SO</br>
+    t1-SO
 Comparação de desempenho criação Processos em Cadeia vs Processos em Árvore Binária Cheia.
 
 
