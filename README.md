@@ -3,8 +3,8 @@
 Repositório para exercícios e trabalhos da cadeira de Sistemas Operacionais 2017-1.
 
 ------------------------------------------------------------------------------
-<br/><br/>
-    t1-SO
-    Comparação de desempenho criação Processos em Cadeia vs Processos em Árvore Binária Cheia.
+
+    t1-SO</br>
+Comparação de desempenho criação Processos em Cadeia vs Processos em Árvore Binária Cheia.
 
 
