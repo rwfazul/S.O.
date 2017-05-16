@@ -13,8 +13,8 @@ int main(int argc, char const *argv[]) {
 	for (long i = 0; i < NUM_THREADS; i++) {
 		printf("Main: Criando thread %ld\n", i);
 		if (pthread_create(&threads[i], NULL, printHello, (void*) i)) {
-	        fprintf(stderr, "Erro ao criar thread %ld", i);
-         	exit(-1);		
+			fprintf(stderr, "Erro ao criar thread %ld", i);
+			exit(-1);		
 		}
 	}
 
@@ -27,6 +27,7 @@ int main(int argc, char const *argv[]) {
 void *printHello(void *arg) {
 	long a = (long) arg;
 	printf("Hello World! Sou a thread %li!\n", a);
+	return EXIT_SUCCESS;
 }
 
 

@@ -5,7 +5,6 @@
 
 void *printHello(void *arg);
 
-
 struct Argumentos {
 	int num_th;
 	int *vet;
@@ -34,6 +33,7 @@ void *printHello(void *arg) {
 	struct Argumentos args = *(struct Argumentos*) arg;
 	int num_th = args.num_th;
 	printf("Hello world! Sou a thread %d. Li o vet e achei o valor %d.\n", num_th, args.vet[num_th]);
+	return EXIT_SUCCESS;
 }
 
 
