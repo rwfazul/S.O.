@@ -26,7 +26,7 @@ int main(int argc, char const *argv[]) {
 		printf("\nString enviada pelo Pai (PID=%d e PPID=%d): '%s'\n\n", getpid(), getppid(), str);
 
 		write(fd[1], str, sizeof(str) + 1);	 // escreve string no pipe
-		wait(0);	
+		wait(0);			    	 // espera filho acabar leitura
 	}
 	else {						// filho
 		char str_recebida[BUFFER];
