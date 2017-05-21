@@ -7,14 +7,17 @@ Compilar:
 	<b>gcc -o <nome_arquivo> <nome_arquivo>.c -pthread -lm</b>
 	
 Uso:
-	<b>./<nome_arquivo> tam_vet qtd_pt</b><br/><br/>
+	<b>./<nome_arquivo> tam_vet qtd_pt</b><br/>
 
-(Sendo tam_vet e qtd_pt (quantidade de processos e threads a serem criados) valores positivos e não nulos e tam_vet >= qtd_pt).
+tam_vet: tamanho do vetor a ser preenchido de forma randômica;<br/>
+qtd_pt: quantidade de processos e threads a serem criados.</br>
+
+(Sendo tam_vet e qtd_pt  valores positivos e não nulos e tam_vet >= qtd_pt).
 
 -----------------------------------------------------------------
-<b>Exemplo de output (tam_vet = 20, qtd_pt = 4):</b><br/><br/>
+<b>Exemplo de output (tam_vet = 20, qtd_pt = 4):</b><br/>
 
-124 357 452 123 152 360 206 498 368 13 448 430 147 186 487 479 326 297 365 329<br/><br/>
+124 357 452 123 152 360 206 498 368 13 448 430 147 186 487 479 326 297 365 329<br/>
 
 Sequencial -> 3 numeros primos!<br/>
 Thread 1 -> 0 numeros primos!<br/>
