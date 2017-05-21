@@ -10,7 +10,7 @@ Uso:
 	<b>./<nome_arquivo> tam_vet qtd_pt</b><br/>
 
 - tam_vet: tamanho do vetor a ser preenchido de forma randômica;<br/>
-- qtd_pt: quantidade de processos e threads a serem criados.</br>
+- qtd_pt: quantidade de processos e threads a serem criados.<br/>
 
 (Sendo tam_vet e qtd_pt  valores positivos e não nulos e tam_vet >= qtd_pt).
 
