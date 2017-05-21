@@ -29,6 +29,6 @@ Processo 4337 -> 1 numeros primos!<br/>
 Processo 4338 -> 1 numeros primos!<br/>
 Processo 4339 -> 1 numeros primos!<br/>
 
-	Tempo execucao busca sequencial:    0.000038s<br/>
-	Tempo execucao busca com threads:   0.001671s<br/>
+	Tempo execucao busca sequencial:    0.000038s
+	Tempo execucao busca com threads:   0.001671s
 	Tempo execucao busca com processos: 0.002305s
