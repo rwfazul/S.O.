@@ -29,7 +29,7 @@ Termino do processo com PID=6469 e PPID=6468<br/>
 Termino do processo com PID=6468 e PPID=6467<br/>
 Termino do processo com PID=6467 e PPID=6466<br/>
 Termino do processo com PID=6466 e PPID=6465<br/>
-Termino execucao cadeia, PID=6465<br/><br/>
+Termino execucao cadeia, PID=6465<br/>
 
 
 Tempo execucao processos em cadeia: 0.003048s<br/><br/>
