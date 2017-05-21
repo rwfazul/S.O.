@@ -7,7 +7,7 @@ Compilar:
 	<b>gcc -o <nome_arquivo> <nome_arquivo>.c -pthread -lm</b>
 	
 Uso:
-	<b>./<nome_arquivo> tam_vet qtd_pt</b>
+	<b>./<nome_arquivo> tam_vet qtd_pt</b><br/><br/>
 
 (Sendo tam_vet e qtd_pt (quantidade de processos e threads a serem criados) valores positivos e não nulos e tam_vet >= qtd_pt).
 
