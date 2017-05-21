@@ -9,8 +9,8 @@ Compilar:
 Uso:
 	<b>./<nome_arquivo> tam_vet qtd_pt</b><br/>
 
-tam_vet: tamanho do vetor a ser preenchido de forma randômica;<br/>
-qtd_pt: quantidade de processos e threads a serem criados.</br>
+- tam_vet: tamanho do vetor a ser preenchido de forma randômica;<br/>
+- qtd_pt: quantidade de processos e threads a serem criados.</br>
 
 (Sendo tam_vet e qtd_pt  valores positivos e não nulos e tam_vet >= qtd_pt).
 
@@ -27,7 +27,7 @@ Thread 4 -> 1 numeros primos!<br/>
 Processo 4336 -> 0 numeros primos!<br/>
 Processo 4337 -> 1 numeros primos!<br/>
 Processo 4338 -> 1 numeros primos!<br/>
-Processo 4339 -> 1 numeros primos!<br/><br/>
+Processo 4339 -> 1 numeros primos!<br/>
 
 	Tempo execucao busca sequencial:    0.000038s<br/>
 	Tempo execucao busca com threads:   0.001671s<br/>
