@@ -14,18 +14,18 @@ Uso:
 -----------------------------------------------------------------
 <b>Exemplo de output (tam_vet = 20, qtd_pt = 4):</b><br/><br/>
 
-124 357 452 123 152 360 206 498 368 13 448 430 147 186 487 479 326 297 365 329 
+124 357 452 123 152 360 206 498 368 13 448 430 147 186 487 479 326 297 365 329<br/><br/>
 
-Sequencial -> 3 numeros primos!
-Thread 1 -> 0 numeros primos!
-Thread 2 -> 1 numeros primos!
-Thread 3 -> 1 numeros primos!
-Thread 4 -> 1 numeros primos!
-Processo 4336 -> 0 numeros primos!
-Processo 4337 -> 1 numeros primos!
-Processo 4338 -> 1 numeros primos!
-Processo 4339 -> 1 numeros primos!
+Sequencial -> 3 numeros primos!<br/>
+Thread 1 -> 0 numeros primos!<br/>
+Thread 2 -> 1 numeros primos!<br/>
+Thread 3 -> 1 numeros primos!<br/>
+Thread 4 -> 1 numeros primos!<br/>
+Processo 4336 -> 0 numeros primos!<br/>
+Processo 4337 -> 1 numeros primos!<br/>
+Processo 4338 -> 1 numeros primos!<br/>
+Processo 4339 -> 1 numeros primos!<br/><br/>
 
-  Tempo execucao busca sequencial:    0.000038s
-	Tempo execucao busca com threads:   0.001671s
+	Tempo execucao busca sequencial:    0.000038s<br/>
+	Tempo execucao busca com threads:   0.001671s<br/>
 	Tempo execucao busca com processos: 0.002305s
