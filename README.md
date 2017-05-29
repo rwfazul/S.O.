@@ -1,6 +1,6 @@
 # S.O.
 
-Repositório para exercícios e trabalhos da cadeira de Sistemas Operacionais 2017-1.
+Repositório para exercícios e trabalhos da cadeira de Sistemas Operacionais ELC1080 2017-1.
 
 ------------------------------------------------------------------------------
 
