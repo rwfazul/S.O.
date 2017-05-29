@@ -4,11 +4,11 @@ Repositório para exercícios e trabalhos da cadeira de Sistemas Operacionais 20
 
 ------------------------------------------------------------------------------
 
-#### t1-SO
-	- Comparação de desempenho criação Processos em Cadeia vs Processos em Árvore Binária Cheia.
+- <strong>t1-SO</strong>
+	+ Comparação de desempenho criação Processos em Cadeia vs Processos em Árvore Binária Cheia.
     
-#### t2-SO
-	- Comparação de desempenho busca números primos Sequencial vs Processos vs Threads.
+- <strong>t2-SO</strong>
+	+ Comparação de desempenho busca números primos Sequencial vs Processos vs Threads.
 
-#### t3-SO
-	- Sincronização de processos.
+- <strong>t3-SO</strong>
+	+ Sincronização de processos.
