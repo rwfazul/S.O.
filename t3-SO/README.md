@@ -1,5 +1,4 @@
 # t2-SO
 
 
-Trabalho que consiste na sincrocanização de processos.
-
+Trabalho que consiste na sincronização.
