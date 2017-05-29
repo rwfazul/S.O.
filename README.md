@@ -11,4 +11,4 @@ Repositório para exercícios e trabalhos da cadeira de Sistemas Operacionais EL
 	+ Comparação de desempenho busca números primos Sequencial vs Processos vs Threads.
 
 - <strong>t3-SO</strong>
-	+ Sincronização de processos.
+	+ Sincronização de processos no problema dos Leitores-Escritores.
