@@ -2,7 +2,7 @@
 
 ELC1080 Disciplina de Sistemas Operacionais A | 4° semestre do curso de Sistemas de Informação UFSM 2017-1
 
-Trabalho que consiste na implementação e testes das três soluções do problema dos leitores-escritores (readesr-writers problem), em que:
+Trabalho que consiste na implementação e testes das três soluções do problema dos leitores-escritores (readers-writers problem), em que:
 
 - Processos leitores e escritores competem pelo acesso a uma base de dados;
 - Vários leitores podem acessar a base ao mesmo tempo;
