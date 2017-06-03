@@ -11,5 +11,5 @@ Repositório para exercícios e trabalhos da cadeira de Sistemas Operacionais EL
 - Comparação de desempenho busca números primos Sequencial vs Processos vs Threads.
 
 ### t3-SO
-- Sincronização de processos nos três problemas dos Leitores-Escritores utilizando semáforos (Readers-writers Problem).
+- Sincronização de processos nos três problemas dos Leitores-Escritores utilizando semáforos (Readers-writers problem).
 
