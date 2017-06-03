@@ -1,6 +1,6 @@
 # t3-SO
 
-ELC1080 Disciplina de Fundamentos de Banco de Dados | 4° semestre do curso de Sistemas de Informação UFSM 2017-1
+ELC1080 Disciplina de Sistemas Operacionais A | 4° semestre do curso de Sistemas de Informação UFSM 2017-1
 
 Trabalho que consiste na implementação e testes das três soluções do problema dos leitores-escritores (readesr-writers problem), em que:
 
