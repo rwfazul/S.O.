@@ -1,40 +1,50 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
-#include <unistd.h>
+
+#define NUM_THREADS			 	10
+
+typedef struct T_args {
+	int id_thread;
+	int qtd_threads;
+} t_args;
 
 void *printHello(void *arg);
 
-struct Argumentos {
-	int num_th;
-	int *vet;
-};
-
-#define NUM_THREADS  	5
-
 int main(int argc, char const *argv[]) {
 	pthread_t threads[NUM_THREADS];
- 	struct Argumentos args[NUM_THREADS];
-	int vet[] = {100, 200, 300, 400, 500};
-	for (int i = 0; i < NUM_THREADS; i++) {
-		args[i].num_th = i;
-		args[i].vet = vet;
-		printf("Main: Criando thread %d\n", i);
-		pthread_create(&threads[i], NULL, printHello, (void*) &args[i]);
+	int i;
+	t_args *arg;
+
+	for (i = 0; i < NUM_THREADS; i++) {
+		if ( (arg = (t_args*) malloc(sizeof(t_args))) == NULL ) {
+			fprintf(stderr, "Erro ao alocar mem thread %d\n", i);
+			exit(-1);
+		}
+		arg->id_thread = i;
+		arg->qtd_threads = NUM_THREADS;
+		printf("Criando a thread %d\n", i);
+		if ( pthread_create(&threads[i], NULL, printHello, (void*) arg) ) {
+			fprintf(stderr, "Erro ao criar a thread %d\n", i);
+			exit(-1);			
+		}
 	}
 
-	for (int i = 0; i < NUM_THREADS; i++)
-		pthread_join(threads[i], NULL);
+	for (i = 0; i < NUM_THREADS; i++) {
+		if ( pthread_join(threads[i], NULL) ) {
+			fprintf(stderr, "Erro ao executar join %d\n", i);
+			exit(-1);				
+		}
+	}
+
 
 	return 0;
 }
 
 void *printHello(void *arg) {
-	struct Argumentos args = *(struct Argumentos*) arg;
-	int num_th = args.num_th;
-	printf("Hello world! Sou a thread %d. Li o vet e achei o valor %d.\n", num_th, args.vet[num_th]);
-	return EXIT_SUCCESS;
+	t_args *args = (t_args*) arg;
+	printf("Hello World, sou a thread %d de %d threads\n", args->id_thread, args->qtd_threads);
+
+	free(arg);
+	pthread_exit(NULL);
 }
-
-
-
