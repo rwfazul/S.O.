@@ -4,9 +4,9 @@ ELC1080 Disciplina de Sistemas Operacionais A | 4° semestre do curso de Sistema
 
 Trabalho que consiste na implementação e testes das três soluções do problema dos leitores-escritores (readers-writers problem), em que:
 
-- Processos leitores e escritores competem pelo acesso a uma base de dados;
+- Threads leitoras e escritoras competem pelo acesso a uma base de dados;
 - Vários leitores podem acessar a base ao mesmo tempo;
-- Quando um escritor está na base de dados, nenhum outro processo pode acessá-la (nem mesmo um leitor).
+- Quando um escritor está na base de dados, nenhuma outra thread pode acessá-la (nem mesmo um leitor).
 
 
 ### 1. Prioridade dos leitores <br/>
