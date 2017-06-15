@@ -42,7 +42,7 @@ int main(int argc, char const *argv[]) {
 
 	sem_init(&recurso, 0, 1);   // segundo parametro: 0 = semaforo compartilhado entre threads de um processo, 1 = entre processos
 	sem_init(&mutex, 0, 1);     // terceiro parametro: valor inicializacao
-	int rc = 0;
+	rc = 0;
 
 	for (i = 0; i < QTD_LEITORES; i++) {
 		leitores_id[i] = i + 1;

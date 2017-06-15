@@ -45,7 +45,7 @@ int main(int argc, char const *argv[]) {
 	sem_init(&mutex_prioridade, 0, 1);
 	sem_init(&tentativa_leitura, 0, 1);
 
-	int rc = 0, wc = 0;
+	rc = 0, wc = 0;
 
 	for (i = 0; i < QTD_LEITORES; i++) {
 		leitores_id[i] = i + 1;
