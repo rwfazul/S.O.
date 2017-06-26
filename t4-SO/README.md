@@ -23,7 +23,7 @@ Trabalho que simula a sincronização da venda de bilhetes em uma bilheteria.
 	**gcc -o <nome_arquivo> <nome_arquivo>.c -pthread**
 	
 - Uso:
-	**./<nome_arquivo> num_espectadores <br/>**
+	**./<nome_arquivo> qtd_ingressos <br/>**
 
 ##### Output <br/>
 Número de ingressos vendidos e número de espectadores que ficaram sem ingresso.
