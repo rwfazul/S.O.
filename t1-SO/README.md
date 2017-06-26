@@ -1,7 +1,7 @@
 # t1-SO
 
 
-Trabalho que consiste na comparação de desempenho da criação de processos em cadeia vs árvore binária cheia
+Trabalho que consiste na comparação de desempenho da criação de processos em cadeia VS árvore binária cheia
 
 Compilar:
 	<b>gcc -o <nome_arquivo> <nome_arquivo>.c</b>
