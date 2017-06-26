@@ -18,12 +18,12 @@ Trabalho que simula a sincronização da venda de bilhetes em uma bilheteria.
 	+ Versão em que cada thread é um "ponto de venda" atendendo mais de um espectador;
 	+ Número de threads fixos; qtd_espectadores idem rhauani-t4SO; qtd_ingressos passado por parametro.
 
-##### Compilação e execução <br/>
+#### Compilação e execução <br/>
 - Compilar:
 	**gcc -o <nome_arquivo> <nome_arquivo>.c -pthread**
 	
 - Uso:
-	**./<nome_arquivo> qtd_ingressos <br/>**
+	**./<nome_arquivo> qtd_ingressos**
 
 ##### Output <br/>
 Número de ingressos vendidos e número de espectadores que ficaram sem ingresso.
