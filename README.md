@@ -16,3 +16,9 @@ Repositório para exercícios e trabalhos da cadeira de Sistemas Operacionais EL
 ### t4-SO
 - Simulação da venda de bilhetes em uma bilheteria de forma sincronizada.
 
+### new-tree
+- Criação de uma árvore baseada nos parâmetros de entrada (cada parâmetro define a quantidade de filhos por nível da árvore)
+
+### calcula-PI
+- Comparação do cálculo do PI pelas séries de Viete, Nilakantha, Wallis e Leibniz, sequencialmente e usando threads.
+
