@@ -25,5 +25,5 @@ Repositório para exercícios e trabalhos da cadeira de Sistemas Operacionais EL
 ### [modes-tree](/modes-tree)
 - Criação de uma árvore de processos por dois modos diferentes: _branch_ e livre.
 
-### [numbers-classifer](/numbers-classifer)
+### [numbers-classifier](/numbers-classifier)
 - Classificação de números perfeitos, abundantes e defectivos com threads, utilizando divisão de trabalho por _chuncks_ e esparsa.
